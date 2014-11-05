@@ -19,7 +19,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 7461,
+				"buffer_size": 7457,
 				"line_ending": "Unix"
 			}
 		}
@@ -76,6 +76,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"img\\",
 			"E:\\课件\\大三上学期\\web程序开发\\Source material",
 			"img",
 			"a"
@@ -104,15 +105,15 @@
 					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 7461,
+						"buffer_size": 7457,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								7015,
+								7015
 							]
 						],
 						"settings":
@@ -122,7 +123,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 2203.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
