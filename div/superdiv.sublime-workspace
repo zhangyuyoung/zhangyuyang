@@ -4,6 +4,146 @@
 		"selected_items":
 		[
 			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"line",
+				"outline-style"
+			],
+			[
+				"r",
+				"right"
+			],
+			[
+				"you",
+				"youxijianjie2"
+			],
+			[
+				"youxi",
+				"youxitimu2"
+			],
+			[
+				"fo",
+				"font-size"
+			],
+			[
+				"fon",
+				"font-style"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"jianjie",
+				"jianjieti"
+			],
+			[
+				"wen",
+				"wenzi3"
+			],
+			[
+				"wenzi",
+				"wenzi1"
+			],
+			[
+				"t",
+				"titlebg3"
+			],
+			[
+				"b",
+				"bottom"
+			],
+			[
+				"in",
+				"inline"
+			],
+			[
+				"list",
+				"list-style"
+			],
+			[
+				"f",
+				"fs	font-style: ${italic};"
+			],
+			[
+				"l",
+				"left"
+			],
+			[
+				"i",
+				"inline"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"kui1",
+				"kui1jian"
+			],
+			[
+				"kui",
+				"kui1jianjie"
+			],
+			[
+				"p",
+				"position"
+			],
+			[
+				"size",
+				"font-size"
+			],
+			[
+				"k",
+				"kui1timu"
+			],
+			[
+				"ba",
+				"background"
+			],
+			[
+				"ti",
+				"title3"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"sh",
+				"shareto"
+			],
+			[
+				"bg",
+				"bg-game"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"d",
+				"display"
+			],
+			[
+				"no",
+				"no-repeat"
+			],
+			[
+				"top",
+				"top1"
+			],
+			[
+				"fl",
+				"float"
+			],
+			[
 				"border",
 				"border-style"
 			],
@@ -19,8 +159,8 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 7455,
-				"line_ending": "Unix"
+				"buffer_size": 8196,
+				"line_ending": "Windows"
 			}
 		}
 	],
@@ -56,6 +196,11 @@
 	},
 	"file_history":
 	[
+		"/D/Documents/GitHub/zhangyuyang/divdiv/index.html",
+		"/D/Documents/GitHub/zhangyuyang/table/index.html",
+		"/E/360data/重要数据/桌面/index1.html",
+		"/D/Documents/GitHub/zhangyuyang/div/index.html",
+		"/E/360data/重要数据/桌面/index.html",
 		"/E/sublime/table/index.html",
 		"/E/sublime/table/untitled",
 		"/H/dou.html"
@@ -76,6 +221,16 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"kui",
+			"kuiba1",
+			"shareto",
+			"share",
+			"shareto",
+			"bottom",
+			"none",
+			".jianjie",
+			"more",
+			"src=\"",
 			"id",
 			"#",
 			"img\\",
@@ -107,25 +262,24 @@
 					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 7455,
+						"buffer_size": 8196,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								580,
-								580
+								295,
+								295
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 529.0,
+						"translation.y": 348.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"

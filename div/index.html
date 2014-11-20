@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>魁拔</title>
+	<style>
+	    *{
+	    	border: none;
+			margin: 0;
+			padding: 0;
+	    }
+		body {
+			font-family: "微软雅黑";
+			font-weight: bold;
+			font-size: 12px;
+			line-height: 18px;
+		}
+		img {
+			border: none;
+			margin: 0;
+			padding: 0;
+		}
+		div{
+			display: block;
+		}
+		a{text-decoration: none;}
+		.menu {
+			float: right;
+			width: 1000px;
+			text-align: right;
+		}
+		.menu li{
+			display: inline;
+			padding: 0 20px;
+			line-height: 90px;
+			height: 90px;
+			font-size: 20px;
+		}
+		.top{
+			width: 100%;
+			height: 100px;
+			overflow: hidden;
+			background: black;
+		}
+		.top1 {
+			width: 100%;
+			margin: 0 auto;
+			height: 90px;
+			overflow: hidden;
+		}
+		.logo{
+			float:left;
+		}
+		.logo img{
+			width:250px;
+			height: 100px;
+		}
+		.picture {
+			width:100%;
+		}
+		.title{
+			font-size: 36px;
+			color: orange;
+			padding: 0 0 0 100px;
+			width: 180px;
+		}
+		.hero{
+			background: url(img/titlebg.png) no-repeat;
+			line-height: 100px;
+		}
+		.bg-hero{
+			width:100%;
+			height:620px;
+			background: url(img/bg-hero.jpg) no-repeat;
+		}
+		#more{
+			width:150px;
+			padding: 540px 0 0 1000px;
+		}
+		.game{
+			background: url(img/titlebg2.png) no-repeat;
+			background-color:black; 
+			line-height: 100px;
+		}
+		.title2{
+			font-size: 36px;
+			color: black;
+			padding: 0 0 0 100px;
+			width: 180px;	
+		}
+		.bg-game{
+			width:100%;
+			height:640px;
+			background: url(img/bg-game.jpg) no-repeat; 
+		}
+		.shareto{
+			margin:40px 0 0 100px;
+			background: url(img/share.png) no-repeat;
+		}
+		.shareto a{
+			width:18px;
+			height:18px;
+			display: inline-block;
+			padding: 10px;
+			cursor:pointer;
+			position: relative;
+			margin: 0 6px 0 10px;
+			left: 2px;
+			bottom: 10px;
+		}
+		.share{
+			width:100%;
+			float: left;
+			font-size: 20px;
+		}
+		.bottom{
+			margin:15px;
+			font-size:15px;
+			text-align: center;
+			height: 45px;
+			padding: 30px 0 0;
+		}
+		.dianying{
+			background: url(img/titlebg3.png) no-repeat;
+			line-height: 100px;
+		}
+		.title3{
+			position: relative;
+			left:100px;
+			color: orange;
+			font-size: 36px;
+		}
+		.kui{
+			background: url(img/bg-kuiba1.jpg) no-repeat;
+			width: 100%;
+			height: 700px;
+		}
+		.kuitimu{
+			display: inline;
+			position: relative;
+			left: 17%;
+			top: 20px;
+			color:orange;
+			font-size: 40px;
+			font-weight: bold;
+		}
+		.kuiti{
+			position: relative;
+			left: 4%;
+			top: 60px;
+			color:orange;
+			font-size: 30px;
+			font-weight: bold;
+		}
+		#jianjie{
+			font-size: 20px;
+			font-weight: bold;
+		}
+		.jianjie{
+			background: url(img/bg-jianjie1.jpg) no-repeat;
+			width: 100%;
+			height: 626px;
+		}
+		.jianjie img:hover{
+
+		}
+		.kuijianjie{
+			position: relative;
+			top: 70px;
+			width: 40%;
+			font-size: 18px;
+			line-height: 25px;
+		}
+		.jianjie1{
+			position: relative;
+			left: 100px;
+			top: 50px;
+			width: 250px;                           /*做到此！！！*/
+		}
+		#jianjie2{
+			left:270px;
+		}
+		#jianjie3{
+			left:450px;
+		}
+		.wenzi1{
+			width: 270px;
+			line-height: 30px;
+			list-style: none;
+			position: relative;
+			color: white;
+			top: 90px;
+			left: 100px;
+			font-size:15px;
+		}
+		.wenzi2{
+			width: 250px;
+			line-height: 30px;
+			list-style: none;
+			position: relative;
+			color: white;
+			bottom: 30px;
+			left: 550px;
+			font-size:15px;
+		}
+		.wenzi3{
+			width: 250px;
+			line-height: 30px;
+			list-style: none;
+			position: relative;
+			color: white;
+			bottom: 150px;
+			left: 990px;
+			font-size:15px;
+		}
+		.jianjiebiaoti{
+			background: url(img/titlebg2.png) no-repeat;
+			line-height: 100px;
+			background-color:black;
+		}
+		.jianjieti{
+			font-size: 36px;
+			color: black;
+			padding: 0 0 0 100px;
+			width: 180px;	
+		}
+		.youxi1{
+			position: relative;
+			left: 250px;
+		}
+		.youxi2{
+			position: relative;
+			left: 540px;
+		}
+		.youxitimu{
+			font-size: 20px;
+			color: white;
+			position: relative;
+			top:20px;
+			right: 200px;
+		}
+		.youxijianjie{
+			font-size: 15px;
+			width: 300px;
+			color: white;
+			position: relative;
+			top:35px;
+			left:240px;
+			list-style: none;
+		}
+		.youxitimu2{
+			font-size: 20px;
+			color: white;
+			position: relative;
+			bottom:105px;
+			left: 850px;
+		}
+		.youxijianjie2{
+			font-size: 15px;
+			width: 300px;
+			color: white;
+			position: relative;
+			bottom:90px;
+			left:800px;
+			list-style: none;
+		}
+		.xiubian{
+			height: 100px;
+			background-color: black;
+		}
+		.yemiandi{
+			top: 10px;
+			right: 20px;
+			font-size: 30px;
+			color: orange;
+			position: relative;
+			float: right;
+			line-height: 50px;
+		}
+		#yemiandi{
+			top:40px;
+			left: 40px;
+		}
+	</style>
+</head>
+<body>
+	<div class="top">
+		<div class="top1">
+			<a class="logo" href="http://baike.baidu.com/subview/3406373/9464569.htm?fr=aladdin" target="_blank"><img src="img/logo.jpg"></img></a>
+			<ul class="menu">
+				<li>
+					<a href="http://www.vasoon.com/movie.html" target="_blank">电影</a>
+				</li>
+				<li>
+					<a href="http://www.vasoon.com/hero.html" target="_blank">超级英雄</a>
+				</li>
+				<li>
+					<a href="http://www.vasoon.com/game.html" target="_blank">游戏</a>
+				</li>
+				<li>
+					<a href="http://www.baidu.com/" target="_blank">
+						<img src="img/search.png"/>
+					</a>
+				</li>
+				<li>
+					<a href=" " target="_blank">关于我们</a>
+				</li>
+				<li>
+					<a href=" " target="_blank">中文</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div >
+		<a >
+			<img class="picture"src="img/1.jpg" style="display:block;"/>
+		</a>
+	</div>
+	<div class="hero">
+		<span class="title">超级英雄</span>
+	</div>
+	<div class="bg-hero" >
+		<a href=" " >
+			<img id="more" src="img/more_hero.png">
+		</a>
+	</div>
+	<div class="dianying">
+		<span class="title3">魁拔三部曲</span>
+	</div>
+	<div class="jianjie">
+		<a href="http://www.vasoon.com/movie_1.html" target="_blank">
+			<img class="jianjie1" src="img/kuiba1.png" ></a>
+		<a href="http://www.vasoon.com/movie_2.html" target="_blank">
+			<img class="jianjie1" id="jianjie2"src="img/kuiba2.jpg" ></a>
+		<a href="http://www.vasoon.com/movie_3.html" target="_blank">
+			<img class="jianjie1" id="jianjie3" src="img/kuiba3.jpg" ></a>
+		<ul class="wenzi1"> 
+			<li>中文名     魁拔之十万火急</li>
+			<li>外文名     kuiba</li>	
+			<li>出品时间  2011年</li>
+			<li>出品公司  北京青青树动漫科技有限公司</li>
+		</ul>
+		<ul class="wenzi2" >
+			<li>中文名       魁拔Ⅱ大战元泱界</li>
+			<li>外文名       kuiba Ⅱ</li>
+			<li>出品时间   2013年5月31日</li>
+			<li>发行公司   博纳影业集团</li>
+		</ul>
+		<ul class="wenzi3">
+			<li>中文名   魁拔之战神崛起</li>
+			<li>外文名       kuiba Ⅲ</li>
+			<li>出品时间   2014年10月1日</li>
+			<li>发行公司   万达影业</li>
+		</ul>
+	</div>
+	<div class="jianjiebiaoti">
+		<span class="jianjieti">魁拔简介</span>
+	</div>
+	<div class="kui">
+		<p class="kuitimu">魁拔</p>
+		<span class="kuiti">魁拔，与命运对决！</span>
+		<p class="kuijianjie" id="jianjie">简介</p>
+		<p class="kuijianjie">剧情简介：
+			在这个由“脉”构成的“元泱境界”，每隔333年，魁拔，这个恐怖的异常生物，便会在地界的灵山巨石阵诞生！
+            　　魁拔，是天地的错误，宇宙的漏洞。每一次魁拔诞生后都会给世界带来毁灭性的灾难。因此，消灭魁拔无疑是天地两界勇士浴血奋战的重任和无上的光荣。
+            　　魁拔纪元1664年，天神经过精确测算后，在魁拔苏醒前一刻，对其进行了 一次核武级打击。但谁都没有想到，已经悄然实现了自身进化的新一代魁拔，成功地逃脱了致命一击……</p>
+
+	</div>
+	<div class="game">
+		<span class="title2">相关游戏</span>
+	</div>
+	<div class="bg-game" >
+		<img class="youxi1" src="img/youxi1.jpg">
+		<img class="youxi2" src="img/youxi2.png">
+		<span class="youxitimu">魁拔—战神崛起</span>
+		<ul class="youxijianjie">
+			<li>魁拔复活，巨大的灾难将要来临</li>
+			<li>听从来自远方的呼唤，动员天界地界各路妖侠</li>
+			<li>踏上讨伐魁拔的征途！</li>
+			<li>玩家可通过收集、养成打造独特的妖侠队伍</li>
+			<li>攻克一个又有一个障碍</li>
+			<li>了解魁拔的世界！</li>
+		</ul>
+		<span class="youxitimu2">魁拔向上冲</span>
+		<ul class="youxijianjie2">
+			<li>点击屏幕带领蛮吉等人跳过脉门台阶</li>
+			<li>打开更多脉门，直达天界！</li> 
+			<li>小心不要踩空</li>
+			<li>也不要太慢导致失血过多</li> 
+			<li>我们的口号就是：脉门全开！</li>
+			<li>打开脉门迎接10.1魁拔大电影第三集</li>
+		</ul>
+	</div>
+	<div>
+		<div class="xiubian">
+			<span class="yemiandi">魁拔</span>
+			<span class="yemiandi" id="yemiandi">made by zhangyuyoung</span>
+		</div>
+		<div >
+			<span class="share">分享到：</span>
+			<div class="shareto">
+				<a href=""></a>
+				<a href=""></a>
+				<a href=""></a>
+				<a href=""></a>
+				<a href=""></a>
+				<a href=""></a>
+			</div>
+		</div>	
+	</div>
+	<div class="bottom">
+		<p>
+			<a href="https://github.com/zhangyuyoung">××××科技有限公司</a> 版权所有 京ICP备××××××××号 COPYRIGHT © 1994-2014 ZHANGYUYOUNG ANIMATION, ALL RIGHTS RESERVED
+		</p>
+		<img src="" />
+	</div>
+	
+</body>
+</html>
