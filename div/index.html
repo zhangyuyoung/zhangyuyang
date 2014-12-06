@@ -21,8 +21,8 @@
 			padding: 0;
 		}
 		div{
-			display: block;
-		}
+			display: block
+;		}
 		a{text-decoration: none;}
 		.menu {
 			float: right;
@@ -137,25 +137,24 @@
 		}
 		.kuitimu{
 			display: inline;
-			position: relative;
-			left: 17%;
-			top: 20px;
+			float: left;
+			padding-left: 350px;
+			padding-top: 10px;
 			color:orange;
 			font-size: 40px;
 			font-weight: bold;
 		}
 		.kuiti{
-			position: relative;
-			left: 4%;
-			top: 60px;
+			float: left;
+			padding: 50px 150px 0 0;
 			color:orange;
 			font-size: 30px;
 			font-weight: bold;
 		}
 		#jianjie{
-			font-size: 20px;
-			font-weight: bold;
-		}
+			padding-top: 50px;
+			width:100%;
+			font-size: 20px;		}
 		.jianjie{
 			background: url(img/bg-jianjie1.jpg) no-repeat;
 			width: 100%;
@@ -165,53 +164,33 @@
 
 		}
 		.kuijianjie{
-			position: relative;
-			top: 70px;
+			float: left;
 			width: 40%;
 			font-size: 18px;
 			line-height: 25px;
 		}
 		.jianjie1{
-			position: relative;
-			left: 100px;
-			top: 50px;
+			float: left;
+			padding-left: 200px;
 			width: 250px;                           /*做到此！！！*/
 		}
-		#jianjie2{
-			left:270px;
-		}
-		#jianjie3{
-			left:450px;
+		#jianjie1{
+			padding-left: 70px;
 		}
 		.wenzi1{
 			width: 270px;
 			line-height: 30px;
 			list-style: none;
-			position: relative;
+			float: left;
+			padding:20px 0 0 70px;
 			color: white;
-			top: 90px;
-			left: 100px;
 			font-size:15px;
 		}
-		.wenzi2{
-			width: 250px;
-			line-height: 30px;
-			list-style: none;
-			position: relative;
-			color: white;
-			bottom: 30px;
-			left: 550px;
-			font-size:15px;
+		#wenzi2{
+			padding-left: 200px
 		}
-		.wenzi3{
-			width: 250px;
-			line-height: 30px;
-			list-style: none;
-			position: relative;
-			color: white;
-			bottom: 150px;
-			left: 990px;
-			font-size:15px;
+		#wenzi3{
+			padding-left: 200px
 		}
 		.jianjiebiaoti{
 			background: url(img/titlebg2.png) no-repeat;
@@ -225,43 +204,44 @@
 			width: 180px;	
 		}
 		.youxi1{
-			position: relative;
-			left: 250px;
+			float:left;
+			padding: 0 0 0 250px;
 		}
 		.youxi2{
-			position: relative;
-			left: 540px;
+			float: left;
+			padding-left: 250px;
 		}
 		.youxitimu{
 			font-size: 20px;
 			color: white;
-			position: relative;
-			top:20px;
-			right: 200px;
+			float:left;
+			padding:20px 0 0 300px;
+		}
+		.clean{
+			clear: both;
 		}
 		.youxijianjie{
+			display: inline-block;
 			font-size: 15px;
 			width: 300px;
 			color: white;
-			position: relative;
-			top:35px;
-			left:240px;
+			float: left;
+			padding: 10px 0 0 240px;
 			list-style: none;
 		}
 		.youxitimu2{
 			font-size: 20px;
 			color: white;
-			position: relative;
-			bottom:105px;
-			left: 850px;
+			float: left;
+			padding:20px 0 0 400px;
 		}
 		.youxijianjie2{
+			display: inline-block;
 			font-size: 15px;
 			width: 300px;
+			float: left;
+			padding: 10px 0 0 220px;
 			color: white;
-			position: relative;
-			bottom:90px;
-			left:800px;
 			list-style: none;
 		}
 		.xiubian{
@@ -329,24 +309,24 @@
 	</div>
 	<div class="jianjie">
 		<a href="http://www.vasoon.com/movie_1.html" target="_blank">
-			<img class="jianjie1" src="img/kuiba1.png" ></a>
+			<img class="jianjie1" id="jianjie1" src="img/kuiba1.png" ></a>
 		<a href="http://www.vasoon.com/movie_2.html" target="_blank">
-			<img class="jianjie1" id="jianjie2"src="img/kuiba2.jpg" ></a>
+			<img class="jianjie1" src="img/kuiba2.jpg" ></a>
 		<a href="http://www.vasoon.com/movie_3.html" target="_blank">
-			<img class="jianjie1" id="jianjie3" src="img/kuiba3.jpg" ></a>
+			<img class="jianjie1" src="img/kuiba3.jpg" ></a>
 		<ul class="wenzi1"> 
 			<li>中文名     魁拔之十万火急</li>
 			<li>外文名     kuiba</li>	
 			<li>出品时间  2011年</li>
 			<li>出品公司  北京青青树动漫科技有限公司</li>
 		</ul>
-		<ul class="wenzi2" >
+		<ul class="wenzi1" id="wenzi2">
 			<li>中文名       魁拔Ⅱ大战元泱界</li>
 			<li>外文名       kuiba Ⅱ</li>
 			<li>出品时间   2013年5月31日</li>
 			<li>发行公司   博纳影业集团</li>
 		</ul>
-		<ul class="wenzi3">
+		<ul class="wenzi1" id="wenzi3">
 			<li>中文名   魁拔之战神崛起</li>
 			<li>外文名       kuiba Ⅲ</li>
 			<li>出品时间   2014年10月1日</li>
@@ -360,7 +340,7 @@
 		<p class="kuitimu">魁拔</p>
 		<span class="kuiti">魁拔，与命运对决！</span>
 		<p class="kuijianjie" id="jianjie">简介</p>
-		<p class="kuijianjie">剧情简介：
+		<p class="kuijianjie" >剧情简介：
 			在这个由“脉”构成的“元泱境界”，每隔333年，魁拔，这个恐怖的异常生物，便会在地界的灵山巨石阵诞生！
             　　魁拔，是天地的错误，宇宙的漏洞。每一次魁拔诞生后都会给世界带来毁灭性的灾难。因此，消灭魁拔无疑是天地两界勇士浴血奋战的重任和无上的光荣。
             　　魁拔纪元1664年，天神经过精确测算后，在魁拔苏醒前一刻，对其进行了 一次核武级打击。但谁都没有想到，已经悄然实现了自身进化的新一代魁拔，成功地逃脱了致命一击……</p>
@@ -372,7 +352,9 @@
 	<div class="bg-game" >
 		<img class="youxi1" src="img/youxi1.jpg">
 		<img class="youxi2" src="img/youxi2.png">
+		<div class="clean" ></div>
 		<span class="youxitimu">魁拔—战神崛起</span>
+		<span class="youxitimu2">魁拔向上冲</span>
 		<ul class="youxijianjie">
 			<li>魁拔复活，巨大的灾难将要来临</li>
 			<li>听从来自远方的呼唤，动员天界地界各路妖侠</li>
@@ -381,7 +363,6 @@
 			<li>攻克一个又有一个障碍</li>
 			<li>了解魁拔的世界！</li>
 		</ul>
-		<span class="youxitimu2">魁拔向上冲</span>
 		<ul class="youxijianjie2">
 			<li>点击屏幕带领蛮吉等人跳过脉门台阶</li>
 			<li>打开更多脉门，直达天界！</li> 

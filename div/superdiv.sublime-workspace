@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"bor",
+				"border-style"
+			],
+			[
 				"text",
 				"text-decoration"
 			],
@@ -156,10 +160,29 @@
 	"buffers":
 	[
 		{
+			"contents": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n	<meta charset=\"UTF-8\">\n	<title>魁拔</title>\n	<style>\n	    *{\n	    	border: none;\n			margin: 0;\n			padding: 0;\n	    }\n		body {\n			font-family: \"微软雅黑\";\n			font-weight: bold;\n			font-size: 12px;\n			line-height: 18px;\n		}\n		img {\n			border: none;\n			margin: 0;\n			padding: 0;\n		}\n		div{\n			display: block\n;		}\n		a{text-decoration: none;}\n		.menu {\n			float: right;\n			width: 1000px;\n			text-align: right;\n		}\n		.menu li{\n			display: inline;\n			padding: 0 20px;\n			line-height: 90px;\n			height: 90px;\n			font-size: 20px;\n		}\n		.top{\n			width: 100%;\n			height: 100px;\n			overflow: hidden;\n			background: black;\n		}\n		.top1 {\n			width: 100%;\n			margin: 0 auto;\n			height: 90px;\n			overflow: hidden;\n		}\n		.logo{\n			float:left;\n		}\n		.logo img{\n			width:250px;\n			height: 100px;\n		}\n		.picture {\n			width:100%;\n		}\n		.title{\n			font-size: 36px;\n			color: orange;\n			padding: 0 0 0 100px;\n			width: 180px;\n		}\n		.hero{\n			background: url(img/titlebg.png) no-repeat;\n			line-height: 100px;\n		}\n		.bg-hero{\n			width:100%;\n			height:620px;\n			background: url(img/bg-hero.jpg) no-repeat;\n		}\n		#more{\n			width:150px;\n			padding: 540px 0 0 1000px;\n		}\n		.game{\n			background: url(img/titlebg2.png) no-repeat;\n			background-color:black; \n			line-height: 100px;\n		}\n		.title2{\n			font-size: 36px;\n			color: black;\n			padding: 0 0 0 100px;\n			width: 180px;	\n		}\n		.bg-game{\n			width:100%;\n			height:640px;\n			background: url(img/bg-game.jpg) no-repeat; \n		}\n		.shareto{\n			margin:40px 0 0 100px;\n			background: url(img/share.png) no-repeat;\n		}\n		.shareto a{\n			width:18px;\n			height:18px;\n			display: inline-block;\n			padding: 10px;\n			cursor:pointer;\n			position: relative;\n			margin: 0 6px 0 10px;\n			left: 2px;\n			bottom: 10px;\n		}\n		.share{\n			width:100%;\n			float: left;\n			font-size: 20px;\n		}\n		.bottom{\n			margin:15px;\n			font-size:15px;\n			text-align: center;\n			height: 45px;\n			padding: 30px 0 0;\n		}\n		.dianying{\n			background: url(img/titlebg3.png) no-repeat;\n			line-height: 100px;\n		}\n		.title3{\n			position: relative;\n			left:100px;\n			color: orange;\n			font-size: 36px;\n		}\n		.kui{\n			background: url(img/bg-kuiba1.jpg) no-repeat;\n			width: 100%;\n			height: 700px;\n		}\n		.kuitimu{\n			display: inline;\n			position: relative;\n			left: 17%;\n			top: 20px;\n			color:orange;\n			font-size: 40px;\n			font-weight: bold;\n		}\n		.kuiti{\n			position: relative;\n			left: 4%;\n			top: 60px;\n			color:orange;\n			font-size: 30px;\n			font-weight: bold;\n		}\n		#jianjie{\n			font-size: 20px;\n			font-weight: bold;\n		}\n		.jianjie{\n			background: url(img/bg-jianjie1.jpg) no-repeat;\n			width: 100%;\n			height: 626px;\n		}\n		.jianjie img:hover{\n\n		}\n		.kuijianjie{\n			position: relative;\n			top: 70px;\n			width: 40%;\n			font-size: 18px;\n			line-height: 25px;\n		}\n		.jianjie1{\n			position: relative;\n			left: 100px;\n			top: 50px;\n			width: 250px;                           /*做到此！！！*/\n		}\n		#jianjie2{\n			left:270px;\n		}\n		#jianjie3{\n			left:450px;\n		}\n		.wenzi1{\n			width: 270px;\n			line-height: 30px;\n			list-style: none;\n			position: relative;\n			color: white;\n			top: 90px;\n			left: 100px;\n			font-size:15px;\n		}\n		.wenzi2{\n			width: 250px;\n			line-height: 30px;\n			list-style: none;\n			position: relative;\n			color: white;\n			bottom: 30px;\n			left: 550px;\n			font-size:15px;\n		}\n		.wenzi3{\n			width: 250px;\n			line-height: 30px;\n			list-style: none;\n			position: relative;\n			color: white;\n			bottom: 150px;\n			left: 990px;\n			font-size:15px;\n		}\n		.jianjiebiaoti{\n			background: url(img/titlebg2.png) no-repeat;\n			line-height: 100px;\n			background-color:black;\n		}\n		.jianjieti{\n			font-size: 36px;\n			color: black;\n			padding: 0 0 0 100px;\n			width: 180px;	\n		}\n		.youxi1{\n			float:left;\n			padding: 0 0 250px 0;\n		}\n		.youxi2{\n			float: left;\n			padding:;\n		}\n		.youxitimu{\n			font-size: 20px;\n			color: white;\n			position: relative;\n			top:20px;\n			right: 200px;\n		}\n		.youxijianjie{\n			font-size: 15px;\n			width: 300px;\n			color: white;\n			float: left;\n			padding: 30px 0 0 250px;\n			list-style: none;\n		}\n		.youxitimu2{\n			font-size: 20px;\n			color: white;\n			position: relative;\n			bottom:105px;\n			left: 850px;\n		}\n		.youxijianjie2{\n			font-size: 15px;\n			width: 300px;\n			color: white;\n			position: relative;\n			bottom:90px;\n			left:800px;\n			list-style: none;\n		}\n		.xiubian{\n			height: 100px;\n			background-color: black;\n		}\n		.yemiandi{\n			top: 10px;\n			right: 20px;\n			font-size: 30px;\n			color: orange;\n			position: relative;\n			float: right;\n			line-height: 50px;\n		}\n		#yemiandi{\n			top:40px;\n			left: 40px;\n		}\n	</style>\n</head>\n<body>\n	<div class=\"top\">\n		<div class=\"top1\">\n			<a class=\"logo\" href=\"http://baike.baidu.com/subview/3406373/9464569.htm?fr=aladdin\" target=\"_blank\"><img src=\"img/logo.jpg\"></img></a>\n			<ul class=\"menu\">\n				<li>\n					<a href=\"http://www.vasoon.com/movie.html\" target=\"_blank\">电影</a>\n				</li>\n				<li>\n					<a href=\"http://www.vasoon.com/hero.html\" target=\"_blank\">超级英雄</a>\n				</li>\n				<li>\n					<a href=\"http://www.vasoon.com/game.html\" target=\"_blank\">游戏</a>\n				</li>\n				<li>\n					<a href=\"http://www.baidu.com/\" target=\"_blank\">\n						<img src=\"img/search.png\"/>\n					</a>\n				</li>\n				<li>\n					<a href=\" \" target=\"_blank\">关于我们</a>\n				</li>\n				<li>\n					<a href=\" \" target=\"_blank\">中文</a>\n				</li>\n			</ul>\n		</div>\n	</div>\n	<div >\n		<a >\n			<img class=\"picture\"src=\"img/1.jpg\" style=\"display:block;\"/>\n		</a>\n	</div>\n	<div class=\"hero\">\n		<span class=\"title\">超级英雄</span>\n	</div>\n	<div class=\"bg-hero\" >\n		<a href=\" \" >\n			<img id=\"more\" src=\"img/more_hero.png\">\n		</a>\n	</div>\n	<div class=\"dianying\">\n		<span class=\"title3\">魁拔三部曲</span>\n	</div>\n	<div class=\"jianjie\">\n		<a href=\"http://www.vasoon.com/movie_1.html\" target=\"_blank\">\n			<img class=\"jianjie1\" src=\"img/kuiba1.png\" ></a>\n		<a href=\"http://www.vasoon.com/movie_2.html\" target=\"_blank\">\n			<img class=\"jianjie1\" id=\"jianjie2\"src=\"img/kuiba2.jpg\" ></a>\n		<a href=\"http://www.vasoon.com/movie_3.html\" target=\"_blank\">\n			<img class=\"jianjie1\" id=\"jianjie3\" src=\"img/kuiba3.jpg\" ></a>\n		<ul class=\"wenzi1\"> \n			<li>中文名     魁拔之十万火急</li>\n			<li>外文名     kuiba</li>	\n			<li>出品时间  2011年</li>\n			<li>出品公司  北京青青树动漫科技有限公司</li>\n		</ul>\n		<ul class=\"wenzi2\" >\n			<li>中文名       魁拔Ⅱ大战元泱界</li>\n			<li>外文名       kuiba Ⅱ</li>\n			<li>出品时间   2013年5月31日</li>\n			<li>发行公司   博纳影业集团</li>\n		</ul>\n		<ul class=\"wenzi3\">\n			<li>中文名   魁拔之战神崛起</li>\n			<li>外文名       kuiba Ⅲ</li>\n			<li>出品时间   2014年10月1日</li>\n			<li>发行公司   万达影业</li>\n		</ul>\n	</div>\n	<div class=\"jianjiebiaoti\">\n		<span class=\"jianjieti\">魁拔简介</span>\n	</div>\n	<div class=\"kui\">\n		<p class=\"kuitimu\">魁拔</p>\n		<span class=\"kuiti\">魁拔，与命运对决！</span>\n		<p class=\"kuijianjie\" id=\"jianjie\">简介</p>\n		<p class=\"kuijianjie\">剧情简介：\n			在这个由“脉”构成的“元泱境界”，每隔333年，魁拔，这个恐怖的异常生物，便会在地界的灵山巨石阵诞生！\n            　　魁拔，是天地的错误，宇宙的漏洞。每一次魁拔诞生后都会给世界带来毁灭性的灾难。因此，消灭魁拔无疑是天地两界勇士浴血奋战的重任和无上的光荣。\n            　　魁拔纪元1664年，天神经过精确测算后，在魁拔苏醒前一刻，对其进行了 一次核武级打击。但谁都没有想到，已经悄然实现了自身进化的新一代魁拔，成功地逃脱了致命一击……</p>\n\n	</div>\n	<div class=\"game\">\n		<span class=\"title2\">相关游戏</span>\n	</div>\n	<div class=\"bg-game\" >\n		<img class=\"youxi1\" src=\"img/youxi1.jpg\">\n		<img class=\"youxi2\" src=\"img/youxi2.png\">\n		<span class=\"youxitimu\">魁拔—战神崛起</span>\n		<ul class=\"youxijianjie\">\n			<li>魁拔复活，巨大的灾难将要来临</li>\n			<li>听从来自远方的呼唤，动员天界地界各路妖侠</li>\n			<li>踏上讨伐魁拔的征途！</li>\n			<li>玩家可通过收集、养成打造独特的妖侠队伍</li>\n			<li>攻克一个又有一个障碍</li>\n			<li>了解魁拔的世界！</li>\n		</ul>\n		<span class=\"youxitimu2\">魁拔向上冲</span>\n		<ul class=\"youxijianjie2\">\n			<li>点击屏幕带领蛮吉等人跳过脉门台阶</li>\n			<li>打开更多脉门，直达天界！</li> \n			<li>小心不要踩空</li>\n			<li>也不要太慢导致失血过多</li> \n			<li>我们的口号就是：脉门全开！</li>\n			<li>打开脉门迎接10.1魁拔大电影第三集</li>\n		</ul>\n	</div>\n	<div>\n		<div class=\"xiubian\">\n			<span class=\"yemiandi\">魁拔</span>\n			<span class=\"yemiandi\" id=\"yemiandi\">made by zhangyuyoung</span>\n		</div>\n		<div >\n			<span class=\"share\">分享到：</span>\n			<div class=\"shareto\">\n				<a href=\"\"></a>\n				<a href=\"\"></a>\n				<a href=\"\"></a>\n				<a href=\"\"></a>\n				<a href=\"\"></a>\n				<a href=\"\"></a>\n			</div>\n		</div>	\n	</div>\n	<div class=\"bottom\">\n		<p>\n			<a href=\"https://github.com/zhangyuyoung\">××××科技有限公司</a> 版权所有 京ICP备××××××××号 COPYRIGHT © 1994-2014 ZHANGYUYOUNG ANIMATION, ALL RIGHTS RESERVED\n		</p>\n		<img src=\"\" />\n	</div>\n	\n</body>\n</html>",
 			"file": "index.html",
+			"file_size": 9661,
+			"file_write_time": 130614604340000000,
 			"settings":
 			{
-				"buffer_size": 8196,
+				"buffer_size": 8180,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/E/360data/重要数据/桌面/text.html",
+			"settings":
+			{
+				"buffer_size": 617,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/E/360data/重要数据/桌面/zhuning.html",
+			"settings":
+			{
+				"buffer_size": 221,
 				"line_ending": "Windows"
 			}
 		}
@@ -221,6 +244,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"youxi1",
 			"kui",
 			"kuiba1",
 			"shareto",
@@ -254,7 +278,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -262,15 +286,15 @@
 					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 8196,
+						"buffer_size": 8180,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								295,
-								295
+								164,
+								164
 							]
 						],
 						"settings":
@@ -279,7 +303,60 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 348.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/E/360data/重要数据/桌面/text.html",
+					"settings":
+					{
+						"buffer_size": 617,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								407,
+								407
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/E/360data/重要数据/桌面/zhuning.html",
+					"settings":
+					{
+						"buffer_size": 221,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								166,
+								166
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
