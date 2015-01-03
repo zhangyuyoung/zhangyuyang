@@ -1,0 +1,60 @@
+/*网页样式*/
+/*总样式*/
+*{
+	margin:0;
+	padding:0;
+	text-decoration: none;
+}
+/*总样式结束*/
+/*浮动框*/
+.floatframe{
+	width: 992px;
+	position: relative;
+}
+#float{
+	width: 992px;
+}
+#float li{
+	display: none;
+}
+#number{
+	position: absolute;
+	right: 15px;
+	bottom: 12px;
+}
+#number li{
+	display: inline-block;
+	width: 30px;
+	text-align: center;
+	background: rgba(0,0,0,0.3);
+	background-opacity: 0.15;
+	border: 1px solid #f3f3f3;
+}
+#number a{
+	font:14px/1.5 arial,"Microsoft Yahei","Hiragino Sans GB",sans-serif;
+	color: rgba(255,255,255,0.9);
+}
+.arrow{
+	width: 41.5px;
+	height: 69px;
+	display: inline-block;
+	position:absolute;
+	bottom: 200px;
+}
+#left-arrow{
+	background: url(img/icon-slides.png)no-repeat;
+	background-position: -83px 0;
+}
+#right-arrow{
+	right: 0px;
+	background: url(img/icon-slides.png)no-repeat;
+	background-position: -124.5px 0;
+}
+/*浮动框结束*/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
