@@ -5,11 +5,93 @@
 	padding:0;
 	text-decoration: none;
 }
+a{
+		color: #8c8c8c;
+		font-weight: bold;
+}
 /*总样式结束*/
+/*导航栏*/
+.top{
+	height: 36px;
+	border-bottom: 1px solid #dfdfdf;
+	font-size: 12px;
+	line-height: 36px;
+	background: #fafafa;
+}
+.container{
+	width: 1240px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.Navigation{
+	float: left;
+	line-height: 36px;
+}
+.Login{
+	float: right;
+	line-height: 36px;
+}
+.sp{
+	margin: 0 10px;
+	color: #dfdfdf;
+}
+/*header*/
+.site-header{
+	position: relative;
+	padding-top: 25px;
+}
+.logo{
+	background: url(img/site-logo.png)no-repeat;
+	position: relative;
+	z-index: 5;
+	display: block;
+	width: 70px;
+	height: 70px;
+}
+.open-buy{
+	position: absolute;
+	top: 20px;
+	right: 0;
+}
+.open-buy a {
+	display: inline-block;
+	padding-left: 20px;
+	height: 16px;
+	line-height: 16px;
+	background: url(img/icon-open-buy.png) no-repeat;
+	overflow: hidden;
+}
+.search{
+	position: relative;
+	left: 700px;
+	width: 422px;
+	height: 38px;
+	border: 1px solid #dfdfdf;
+}
+.search-text{
+	width: 352px;
+	height: 20px;
+	padding: 9px 15px;
+	border: 0;
+	line-height: 20px;
+	color: #333;
+	background: #fff;
+	font-size: 100%;
+}
+.search-buttom{
+	position: absolute;
+	top:-1px;
+	right:-1px;
+	width: 40px;
+	height: 40px;
+	border: 1px solid #dfdfdf;
+}
 /*浮动框*/
 .floatframe{
 	width: 992px;
 	position: relative;
+	top: 30px;
+	left:300px;
 }
 #float{
 	width: 992px;
